@@ -21,7 +21,7 @@
                                 <a href="index.php">Home</a>
                                 <a href="services.php">Services</a>
                                 <a href="about.php">About</a>
-                                <a href="choose.php">Choose</a>
+                                <a href="why-us.php">Why Us</a>
                                 <a href="team.php">Team</a>
                                 <a href="contact.php">Contact Us</a>
                             </div>
