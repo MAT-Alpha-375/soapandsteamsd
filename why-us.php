@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$title = 'Soap And Steam';
+$title = 'Soap And Steam - Why Us';
 include('includes/head.php');
 include('includes/inDB.php')
 
@@ -10,42 +10,9 @@ include('includes/inDB.php')
 
 <body>
   <!--header section start -->
-  <div class="header_section background_bg">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-        </div>
-        <div class="col-md-9">
-          <div class="menu_text">
-            <ul>
-              <div class="togle_3">
-                <div class="menu_main">
-                  <div class="padding_left0"><a href="#">Register</a>
-                    <span class="padding_left0"><a href="#">Login</a></span>
-                  </div>
-                </div>
-                <div class="shoping_bag"><img src="images/search-icon.png"></div>
-              </div>
-              <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                  <a href="index.html">Home</a>
-                  <a href="services.html">Services</a>
-                  <a href="about.html">About</a>
-                  <a href="choose.html">Choose</a>
-                  <a href="team.html">Team</a>
-                  <a href="contact.html">Contact Us</a>
-                </div>
-              </div>
-              <span class="navbar-toggler-icon"></span>
-              <span onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php
+  include('includes/header.php');
+  ?>
   <!-- header section end -->
   <!-- choose section start -->
   <div class="choose_section layout_padding">
@@ -82,7 +49,7 @@ include('includes/inDB.php')
           </div>
         </div>
         <div class="image_3"><img src="images/img-3.png"></div>
-        <div class="get_bt"><a href="#">Get A quote</a></div>
+        <div class="get_bt"><a href="contact.php">Get A quote</a></div>
       </div>
     </div>
   </div>
