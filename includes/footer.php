@@ -56,7 +56,7 @@
             <script>
                 document.write(new Date().getFullYear());
             </script>
-            All Right Reserved By
+            All Right Reserved. Designed By
             <a href="https://bitrondigital.com">Bitron Digital</a>
         </p>
     </div>
